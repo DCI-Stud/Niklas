@@ -1,0 +1,189 @@
+body {
+    background-image: url(bilder/Hintergrund-1.jpg);
+}
+
+h1 {
+    color: rgb(177, 214, 247);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4px 9px 7px;
+    padding-bottom: 5px;
+}
+
+h2.css-grundlagen {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3.css-info {
+    color: white;
+    font-size: 48px;
+    margin: 25px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border: 0.5px solid rgb(89, 175, 241);
+    box-shadow: 6px 6px 9px;
+    margin-top: 25px;
+}
+
+.about-info {
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+}
+
+
+
+.main-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    color: white;
+    width: 500px;
+    height: 350px;
+    border-radius: 18px;
+    text-align: center;
+    background-image: url(Hintergrund-1.jpg);
+    border: 1.5px solid rgb(210, 232, 249);
+    box-shadow: 8px 10px 15px;
+    margin: 18px;
+    transition: all 0.6s ease;
+    transform-origin: bottom;
+    text-shadow: 5px 3px 4px black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.box-css {
+    color: rgb(177, 214, 247);
+    height: 670px;
+    border-radius: 20px;
+    text-align: left;
+    border: 1.5px solid rgb(210, 232, 249);
+    box-shadow: 8px 10px 15px;
+    margin: 25px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.ul-css {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    list-style: disc;
+    margin: 20px;
+    line-height: 2.8;
+}
+
+.box-html {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    line-height: 2.8;
+    text-shadow: 5px 3px 4px black;
+    color: rgb(177, 214, 247);
+    height: 670px;
+    border-radius: 20px;
+    text-align: left;
+    border: 1.5px solid rgb(210, 232, 249);
+    box-shadow: 8px 10px 15px;
+}
+
+main div p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    list-style: disc;
+    margin: 20px;
+    text-shadow: 5px 3px 4px black;
+    margin-left: 50px;
+}
+
+.link-zur-hauptseite {
+    padding: 00px 0px 0px;
+    display: flex;
+    justify-content: left;
+    color: rgb(11, 11, 10);
+    text-decoration: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+.card-style {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.test-seite {
+    color: rgb(177, 214, 247);
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    border: 1.5px solid rgb(210, 232, 249);
+    box-shadow: 8px 10px 15px;
+    margin: 25px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgba(92, 151, 245, 0.697);
+}
+
+.bsplbilder{
+    width: 550px;
+    height: 300px;
+}
+
+.absatz{
+
+    margin-top: 50px;
+    margin-right: 80px;
+}
+.absatz2{
+
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
